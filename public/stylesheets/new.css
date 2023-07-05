@@ -1,0 +1,7 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://res.cloudinary.com/dbyepjqsu/image/upload/v1687804040/_16b0f6d2-1a6b-4fa2-b847-a3ea93ef82fd_v5zihp.jpg');
+    background-size: cover;
+    background-position: center;
+}

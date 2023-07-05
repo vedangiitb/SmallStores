@@ -1,0 +1,29 @@
+<% layout('layouts/boilerplate')%>       
+<link rel="stylesheet" href="/stylesheets/new.css">
+<h1>All Stores</h1>
+
+    <ul>
+        <% for (let store of stores) {%>
+            <div class="card mb-3">
+                <div class="row">
+                <div class="col-md-3">
+                    <img class ="img-fluid" alt="" src="<%=store.image[0].url%>">
+                </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%= store.title%>
+                        </h5>
+                        <p class="card-text"><%= store.description%></p>
+                        <p class="card-text">
+                            <small class="text-muted"><%= store.location %></small>
+                        </p>
+                        <a class="btn btn-primary" href="/stores/<%=store._id%>">View <%=store.title%></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <% } %>
+    </ul>
+
+    
