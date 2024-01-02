@@ -1,5 +1,5 @@
 # SmallStores
-This project contains data about shops such as their location and photo.
+This is a simple full stack dev project built using NodeJs and ExpressJs for backend along with mongoDB for data storage. It contains data about some shops such as their location and photo. I have implemented various functionalities like login, location on map, etc.
 
 Here are some pics of the project
 Home Page
